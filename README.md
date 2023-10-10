@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sfloor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sfloor@deno/mod.js';
+import sfloor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sfloor@v0.1.1-deno/mod.js';
 ```
 
 #### sfloor( N, x, strideX, y, strideY )
@@ -152,7 +152,7 @@ sfloor.ndarray( 3, x, 2, 1, y, -1, y.length-1 );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@deno/mod.js';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@deno/mod.js';
-import sfloor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sfloor@deno/mod.js';
+import sfloor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-strided-special-sfloor@v0.1.1-deno/mod.js';
 
 var x = new Float32Array( 10 );
 var y = new Float32Array( 10 );
